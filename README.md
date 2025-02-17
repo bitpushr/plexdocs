@@ -1,8 +1,10 @@
 # Plex Documentation Guide
 
-![Login screen](.github/img/login_screen_ex.webp)
+![Login screen](.github/img/login_screen_ex.png)
 
 A standardized documentation template for your Plex server, built with Material for MkDocs and deployed via Cloudflare Pages. This template includes pre-built pages covering common Plex topics like streaming quality, content requests, transcoding, and more, all of which are protected via Plex OAuth so only your users can read them.
+
+This documentation project contains the same content as [mkdocs-plex-guide-template](https://github.com/MisterCalvin/mkdocs-plex-guide-template), but with a different deployment configuration. To see an example of the docs, take a look at the GitHub Pages [example site](https://mistercalvin.github.io/mkdocs-plex-guide-template/).
 
 ## ✨ Features
 - 📚 Pre-built pages for common Plex topics
@@ -65,7 +67,17 @@ For more information about the Git integration and deployment process, see the [
    | Secret | `PLEX_CLIENT_ID` | UUID | Your generated application ID ([see below](#generating-a-plex-client-id)) |
    | Secret | `MKDOCS_GIT_COMMITTERS_APIKEY` | GitHub Token | Optional: For showing git contributors ([see below](#github-fine-grained-access-token-optional)) |
 
-You can cancel the first deployment as it will fail without updating mkdocs.yml (it has placeholder values you will need to update in the next section). This is OK, as our next deployment will correct this.
+> [!NOTE]
+> The first deployment will fail, as `mkdocs.yml` contains placeholder values we need to update
+>
+> The failure occurs because we need to know the Cloudflare Pages domain (`your-project-name.pages.dev`) before we can properly configure `mkdocs.yml`. The recommended setup order is:
+>
+> 1. Connect your repository to Cloudflare Pages and attempt the first deployment
+> 2. Note your assigned `*.pages.dev` domain
+> 3. Update `mkdocs.yml` with the correct domain values
+> 4. Push your changes to trigger a new deployment
+>
+> If you're experienced with Cloudflare Pages and already know your `*.pages.dev` domain (or are intend to use a [custom domain](#-custom-domain-optional)), you can update `mkdocs.yml` before connecting your repository.
 
 ### 3. 📄 MkDocs Configuration
 
