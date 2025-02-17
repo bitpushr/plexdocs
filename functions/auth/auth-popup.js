@@ -15,7 +15,7 @@ export async function onRequest({ request, env }) {
     <body>
         <div class="container">
             <div class="loading"></div>
-            <h2>Connecting to Plex...</h2>
+            <h1>Connecting to Plex...</h1>
             <p>You'll be redirected to Plex.tv to sign in.</p>
         </div>
     </body>

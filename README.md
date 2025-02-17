@@ -263,6 +263,8 @@ For more detailed logging, set the `DEBUG` environment variable to `true` in you
 > [!WARNING]
 > Make sure to set `DEBUG` back to `false` in production environments to avoid exposing detailed logs that could contain sensitive information.
 
+Also take a look at the Cloudflare Pages docs on [Debugging Pages](https://developers.cloudflare.com/pages/configuration/debugging-pages/)
+
 ### CSS/JS Changes Not Appearing
 
 If changes to CSS or JavaScript files are not showing up after deployment:
@@ -290,3 +292,7 @@ This will force Cloudflare to fetch the latest versions of these files.
 
 ### Video Tutorials
 - [Hosting MkDocs on Cloudflare Pages](https://www.youtube.com/watch?v=7-HhLascLuM) - Techdox
+
+### Plex OAuth Docs (For Developers)
+- [Authenticating with Plex](https://forums.plex.tv/t/authenticating-with-plex/609370)
+- [Security alert when authenticating with Plex](https://forums.plex.tv/t/security-alert-when-authenticating-with-plex/887330)

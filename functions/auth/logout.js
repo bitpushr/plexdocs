@@ -21,7 +21,7 @@ export async function onRequest({ request, env }) {
     </head>
     <body>
         <div class="container">
-            <h2>Logging out...</h2>
+            <h1>Logging out...</h1>
         </div>
     </body>
     </html>

@@ -3,6 +3,7 @@ site_url: https://your-domain.com # Replace with your site URL
 theme:
   name: material
   logo: assets/images/plex-logo.webp # Replace with your logo
+  custom_dir: docs/overrides
   features:
     - navigation.instant
     - navigation.instant.prefetch
