@@ -23,8 +23,8 @@ For more information about the Git integration and deployment process, see the [
 
 ## Quick Links
 - [🚀 Getting Started](#-getting-started)
-- [📄 MkDocs Configuration](#2--mkdocs-configuration)
-- [⚙️ Configure Cloudflare Pages](#3-️-configure-cloudflare-pages)
+- [⚙️ Configure Cloudflare Pages](#2-️-configure-cloudflare-pages)
+- [📄 MkDocs Configuration](#3--mkdocs-configuration)
 - [➕ Additional Steps](#4--additional-steps)
 - [🎨 Customization](#-customization)
 - [🔧 Troubleshooting](#-troubleshooting)
@@ -37,7 +37,35 @@ For more information about the Git integration and deployment process, see the [
 2. Clone your new repository locally
 3. Follow the steps below, then push your documentation to the repository
 
-### 2. 📄 MkDocs Configuration
+### 2. ⚙️ Configure Cloudflare Pages
+
+1. Go to Cloudflare Dashboard → Compute (Workers) → Workers & Pages
+2. Click "Create" → "Pages" → "Connect to Git"
+3. Select your GitHub repository
+4. Configure build settings:
+   - Framework present: `None`
+   - Build command: `git fetch --unshallow && mkdocs build`
+   - Build output directory: `site`
+   - Root directory: (leave empty)
+   - Build comments: Enabled
+
+5. Add environment variables:
+
+> [!WARNING]
+> ### Secrets
+> You can add your Secrets as Variables on the same page when configuring your build settings, but once your pages application is deployed be sure to go into "Settings" → "Variables and Secrets" and change your `PLEX_SERVER_ID, PLEX_CLIENT_ID, MKDOCS_GIT_COMMITTERS_APIKEY` variables to `Secret`, otherwise they will be printed as plaintext in any logs.
+
+   | Type | Name | Value | Description |
+   |------|------|-------|-------------|
+   | Text | `COOKIE_NAME` | plex_session | Name for the authentication cookie |
+   | Text | `DEBUG` | false | Enable debug logging |
+   | Secret | `PLEX_SERVER_ID` | Machine ID | Your Plex server's machine identifier ([see below](#finding-your-plex-server-id)) |
+   | Secret | `PLEX_CLIENT_ID` | UUID | Your generated application ID ([see below](#generating-a-plex-client-id)) |
+   | Secret | `MKDOCS_GIT_COMMITTERS_APIKEY` | GitHub Token | Optional: For showing git contributors ([see below](#github-fine-grained-access-token-optional)) |
+
+Your first deployment will fail because mkdocs.yml has placeholder values you need to update in the next section. This is OK, as our next deployment will correct this.
+
+### 3. 📄 MkDocs Configuration
 
 The [`mkdocs.yml`](mkdocs.yml) file controls your documentation settings. You'll need to update several values for your deployment:
 
@@ -85,36 +113,11 @@ copyright: Copyright &copy; 2025 Your Name
 > The navigation structure (`nav:`) can also be customized to match your documentation needs. You can add, remove, or reorganize pages as needed.
 > Check the MKDocs links in the [Resources](#-resources) section at the bottom for more information
 
-### 3. ⚙️ Configure Cloudflare Pages
-
-1. Go to Cloudflare Dashboard → Compute (Workers) → Workers & Pages
-2. Click "Create" → "Pages" → "Connect to Git"
-3. Select your GitHub repository
-4. Configure build settings on "Settings" → "Build" → "Build configuration":
-   - Build command: `git fetch --unshallow && mkdocs build`
-   - Build output directory: `site`
-   - Root directory: (leave empty)
-   - Build comments: Enabled
-
-5. Add environment variables:
-
-> [!NOTE]
-> ### Environment Variables
-> Environment variables are shared across all deployments (production and preview). If you need different values for development/staging, you'll need to set them up separately in your build configuration. You will see a drop-down box next to "Choose Environment" on the Settings page
-
-   | Type | Name | Value | Description |
-   |------|------|-------|-------------|
-   | Text | `COOKIE_NAME` | plex_session | Name for the authentication cookie |
-   | Text | `DEBUG` | false | Enable debug logging |
-   | Secret | `PLEX_SERVER_ID` | Machine ID | Your Plex server's machine identifier ([see below](#finding-your-plex-server-id)) |
-   | Secret | `PLEX_CLIENT_ID` | UUID | Your generated application ID ([see below](#generating-a-plex-client-id)) |
-   | Secret | `MKDOCS_GIT_COMMITTERS_APIKEY` | GitHub Token | Optional: For showing git contributors ([see below](#github-fine-grained-access-token-optional)) |
-
-6. Trigger initial build and test:
-   - Push a small change to your repository to trigger a build
-   - Once deployed, visit your Pages URL (shown at the top of your project's dashboard as *.pages.dev)
-   - Confirm you're redirected to Plex login
-   - After logging in, verify you can access the documentation
+Trigger initial build and test:
+    - Push the updated mkdocs.yml to your repository to trigger a build
+    - Once deployed, visit your Pages URL (shown at the top of your project's dashboard as *.pages.dev)
+    - Confirm you're redirected to Plex login
+    - After logging in, verify you can access the documentation
 
 ### 4. ➕ Additional Steps
 
