@@ -1,5 +1,7 @@
 # Plex Documentation Guide
 
+![Login screen](.github/img/login_screen_ex.webp)
+
 A standardized documentation template for your Plex server, built with Material for MkDocs and deployed via Cloudflare Pages. This template includes pre-built pages covering common Plex topics like streaming quality, content requests, transcoding, and more, all of which are protected via Plex OAuth so only your users can read them.
 
 ## ✨ Features
