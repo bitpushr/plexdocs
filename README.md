@@ -25,6 +25,24 @@ Each commit creates a unique deployment with its own URL, and successful builds 
 
 For more information about the Git integration and deployment process, see the [Cloudflare Pages Git Integration documentation](https://developers.cloudflare.com/pages/configuration/git-integration/).
 
+## 🔒 Security Considerations
+
+### Asset Access
+For performance and resource optimization, certain static assets are intentionally excluded from authentication checks (defined in [`functions/_routes.json`](functions/_routes.json)). This means files in the following paths are publicly accessible:
+- `/assets/css/*`
+- `/assets/js/*`
+- `/assets/images/*`
+- `/assets/video/*`
+- Root-level CSS/JS files and favicons
+
+This design choice:
+- Reduces authentication processing overhead
+- Minimizes API requests
+- Helps stay within Cloudflare Pages' [free tier limits](#-cloudflare-pages-free-tier-usage-limits) (100,000 requests/day)
+
+> [!NOTE]
+> While these assets are accessible without authentication, they are not easily discoverable unless someone knows the exact file paths. However, if your documentation includes sensitive images or media files, consider storing them in a different location or enabling authentication for specific asset paths.
+
 ## Quick Links
 - [🚀 Getting Started](#-getting-started)
 - [⚙️ Configure Cloudflare Pages](#2-️-configure-cloudflare-pages)
@@ -32,6 +50,7 @@ For more information about the Git integration and deployment process, see the [
 - [➕ Additional Steps](#4--additional-steps)
 - [🎨 Customization](#-customization)
 - [🔧 Troubleshooting](#-troubleshooting)
+- [💻 Cloudflare Pages Free Tier Usage Limits](#-cloudflare-pages-free-tier-usage-limits)
 - [📚 Resources](#-resources)
 
 ## 🚀 Getting Started
@@ -261,9 +280,11 @@ For more detailed logging, set the `DEBUG` environment variable to `true` in you
 - Request processing
 
 > [!WARNING]
-> Make sure to set `DEBUG` back to `false` in production environments to avoid exposing detailed logs that could contain sensitive information.
+> Environment variables require a new deployment to take effect. After enabling `DEBUG`, go to Deployments → Latest deployment → Click `...` next to "View Details" → "Retry deployment". Remember to redeploy again after setting `DEBUG` back to `false` to disable logging in production.
+>
+> Each deployment counts toward your free plan limit of [500 builds per month](#-cloudflare-pages-free-tier-usage-limits)
 
-Also take a look at the Cloudflare Pages docs on [Debugging Pages](https://developers.cloudflare.com/pages/configuration/debugging-pages/)
+Take a look at the Cloudflare Pages docs on [Debugging Pages](https://developers.cloudflare.com/pages/configuration/debugging-pages/) for more.
 
 ### CSS/JS Changes Not Appearing
 
@@ -280,6 +301,32 @@ This will force Cloudflare to fetch the latest versions of these files.
 > [!TIP]
 > ### Browser Cache
 > Sometimes your browser might cache CSS/JS files. If you're still not seeing changes after purging Cloudflare's cache, try a hard refresh (Ctrl+F5) in your browser.
+
+## 💻 Cloudflare Pages Free Tier Usage Limits
+
+### Free Plan Limits
+- **Functions Requests**: 100,000 per day (resets at midnight UTC)
+  - This includes any requests that go through authentication
+  - Static assets (CSS, images, etc.) are unlimited and free
+- **Builds**: 500 per month
+  - Each push to your repository counts as a build
+  - Builds timeout after 20 minutes
+- **Custom Domains**: 100 per project
+- **Files**: Maximum 20,000 files per site
+- **File Size**: 25 MiB per file
+
+> [!TIP]
+> ### Upgrading to Pro
+> If you need higher limits, you can upgrade to Pro by:
+> 1. Having any domain on Cloudflare with a Pro plan or higher
+> 2. That domain doesn't need to use Pages - it just needs to be on a Pro plan
+>
+> See the [community discussion](https://community.cloudflare.com/t/how-to-buy-pro-plan-for-cf-pages/667975/5) for more details.
+
+For more information, see:
+- [Cloudflare Pages Limits](https://developers.cloudflare.com/pages/platform/limits/)
+- [Static Asset Requests](https://developers.cloudflare.com/pages/functions/pricing/#static-asset-requests)
+- [Functions Invocation Routes](https://developers.cloudflare.com/pages/functions/routing/#functions-invocation-routes)
 
 ## 📚 Resources
 
