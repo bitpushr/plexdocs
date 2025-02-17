@@ -2,7 +2,7 @@ site_name: your-site-name # Replace with your site name
 site_url: https://your-domain.com # Replace with your site URL
 theme:
   name: material
-  logo: assets/images/your-logo.webp # Replace with your logo
+  logo: assets/images/plex-logo.webp # Replace with your logo
   features:
     - navigation.instant
     - navigation.instant.prefetch
@@ -72,7 +72,11 @@ plugins:
   - git-committers:
       repository: YourUsername/your-repo-name # Replace with your repo
       branch: main # Or your default branch
-    token: !ENV GITHUB_TOKEN
+      exclude_committers:
+        - "web-flow"  # GitHub web UI edits
+        - "actions-user"  # GitHub Actions
+        - "github-actions[bot]"  # GitHub Actions bot
+      token: !ENV GITHUB_TOKEN
 
 markdown_extensions:
   - toc:

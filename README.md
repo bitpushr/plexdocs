@@ -63,7 +63,7 @@ For more information about the Git integration and deployment process, see the [
    | Secret | `PLEX_CLIENT_ID` | UUID | Your generated application ID ([see below](#generating-a-plex-client-id)) |
    | Secret | `MKDOCS_GIT_COMMITTERS_APIKEY` | GitHub Token | Optional: For showing git contributors ([see below](#github-fine-grained-access-token-optional)) |
 
-Your first deployment will fail because mkdocs.yml has placeholder values you need to update in the next section. This is OK, as our next deployment will correct this.
+You can cancel the first deployment as it will fail without updating mkdocs.yml (it has placeholder values you will need to update in the next section). This is OK, as our next deployment will correct this.
 
 ### 3. 📄 MkDocs Configuration
 
@@ -78,7 +78,7 @@ site_url: https://your-domain.com
 2. Theme Configuration:
 ```yaml
 theme:
-  logo: assets/images/your-logo.webp  # Replace with your logo
+  logo: assets/images/plex-logo.webp  # Replace with your logo
 ```
 
 3. Git Committers Plugin (if using):
@@ -87,6 +87,11 @@ plugins:
   - git-committers:
       repository: YourUsername/your-repo-name
       branch: main  # Or your default branch
+      exclude_committers:
+        - "web-flow"  # GitHub web UI edits
+        - "actions-user"  # GitHub Actions
+        - "github-actions[bot]"  # GitHub Actions bot
+      token: !ENV GITHUB_TOKEN
 ```
 
 4. Social Links:
