@@ -118,7 +118,7 @@ copyright: Copyright &copy; 2025 Your Name
 > The navigation structure (`nav:`) can also be customized to match your documentation needs. You can add, remove, or reorganize pages as needed.
 > Check the MKDocs links in the [Resources](#-resources) section at the bottom for more information
 
-Trigger initial build and test:
+6. Trigger initial build and test:
     - Push the updated mkdocs.yml to your repository to trigger a build
     - Once deployed, visit your Pages URL (shown at the top of your project's dashboard as *.pages.dev)
     - Confirm you're redirected to Plex login
