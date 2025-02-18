@@ -74,6 +74,7 @@ plugins:
       repository: bitpushr/plexdocs # Replace with your repo
       branch: main # Or your default branch
       exclude_committers:
+        - "MisterCalvin"
         - "web-flow"  # GitHub web UI edits
         - "actions-user"  # GitHub Actions
         - "github-actions[bot]"  # GitHub Actions bot
