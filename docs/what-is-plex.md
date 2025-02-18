@@ -7,4 +7,4 @@ When the Plex Media Server installed on a server, like with bitpushr.net's, it e
 
 ![Matrix](assets/images/plex-works-matrix-1.webp)
 
-    **Source**: [Plex: What is Plex?](https://support.plex.tv/articles/200288286-what-is-plex/)
+**Source**: [Plex: What is Plex?](https://support.plex.tv/articles/200288286-what-is-plex/)
