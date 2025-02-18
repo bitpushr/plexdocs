@@ -1,4 +1,4 @@
-site_name: bp's Plex docs # Replace with your site name
+site_name: bp's Plex Docs # Replace with your site name
 site_url: https://docs.bitpushr.net # Replace with your site URL
 theme:
   name: material
