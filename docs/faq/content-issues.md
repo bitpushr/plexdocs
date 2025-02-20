@@ -33,7 +33,7 @@ If you encounter any problems with content (such as distorted video, incorrect m
    4. Describe the problem you're having in as much detail as possible
    5. Hit **Send**
 
-   While this method isn't required, it helps me track and resolve issues more effectively by creating a searchable history of reported problems. See the below video on how to do this.
+   While this method isn't preferred, it will still inform me of reported problems. See the below video on how to do this.
 
 !!! example "Reporting issues within Plex"
     <center><video style="width:65%" controls="true" alt="type:video">
