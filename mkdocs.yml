@@ -39,7 +39,7 @@ nav:
   - Getting Started:
     - Changing Plex streaming quality: getting-started/changing-stream-quality.md
     - Pinning Libraries: getting-started/pinning-libraries.md
-    - Disabling Online Media Sources: disabling-online-media-sources.md
+    - Disabling Online Media Sources: getting-started/disabling-online-media-sources.md
   - Requesting Content: requesting-content.md
   - Content Editions: content-editions.md
   - Managing Newsletter Subscriptions: unsubscribe-from-plex-newsletter.md
