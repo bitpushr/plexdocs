@@ -42,7 +42,7 @@ nav:
     - iOS & Android: changing-stream-quality/ios-android.md
     - tvOS (Apple TV): changing-stream-quality/tv-os.md
     - Amazon Fire TV, Android TV, PlayStation 4/5, Xbox, Roku, Smart TV (LG, Samsung, VIZIO): changing-stream-quality/streaming-devices.md
-    - Plex App: plex-app.md
+    - Plex App: changing-stream-quality/plex-app.md
     - Web Browser: changing-stream-quality/web-browser.md
   - Disabling Online Media Sources: disabling-online-media-sources.md
   - Requesting Content: requesting-content.md
