@@ -10,7 +10,7 @@ Your internet connection might need a lower quality setting *especially if you a
 
 * Your internet speed might not support maximum resolution streaming
 * Try reducing the quality to 1080p or 720p
-* See the [Changing Plex streaming quality](/docs/getting-started/changing-stream-quality/index.md) page for detailed instructions on changing the streaming quality for different devices
+* See the [Changing Plex streaming quality](/docs/getting-started/changing-stream-quality/index) page for detailed instructions on changing the streaming quality for different devices
 
 ### 2. Check Your Subtitles {: .no-toc }
 

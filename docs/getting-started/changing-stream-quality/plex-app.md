@@ -6,6 +6,6 @@ Plex has a [dedicated app](https://www.plex.tv/en-au/media-server-downloads/?cat
 
 !!! example "Plex app"
 
-    ![Example](/docs/assets/images/change-stream-quality-web-browser.webp)
+    ![Example](../changing-stream-quality/images/change-stream-quality-web-browser.webp)
 
     **Source**: [plxplainers.xyz](https://www.plxplainers.xyz/)

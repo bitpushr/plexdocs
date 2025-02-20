@@ -17,7 +17,8 @@ Here's what you need to know:
 
 !!! example "How-to: Pinning Libraries"
 
-    ![Example](/docs/assets/images/pinning-libraries-1.webp)
-    ![Example](/docs/assets/images/pinning-libraries-2.webp)
+    ![Example](../assets/images/pinning-libraries-1.webp)
+    ![Example](../assets/images/pinning-libraries-2.webp)
 
     **Source**: [plxplainers.xyz](https://www.plxplainers.xyz/)
+
