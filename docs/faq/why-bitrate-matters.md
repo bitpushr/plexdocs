@@ -1,4 +1,6 @@
-# Why Bitrate Matters
+---
+title: Why Bitrate Matters
+---
 
 !!! info "Technical Guide: Why Bitrate Matters"
 
