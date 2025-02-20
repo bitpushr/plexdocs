@@ -4,7 +4,7 @@ title: I'm having problems with a Movie or Show
 
 If you encounter any problems with content (such as distorted video, incorrect media, double images, or misaligned subtitles), you have two ways to report it:
 
-## Using Overseerr (Preferred Method)
+# Using Overseerr (Preferred Method)
 
    1. Visit [Overseerr](https://overseerr.bitpushr.net)
    2. Find the problematic Movie or TV Show
@@ -25,7 +25,7 @@ If you encounter any problems with content (such as distorted video, incorrect m
 - Makes it easier to identify patterns in content issues
 - Provides all the necessary details in one place
 
-## Reporting an issue within Plex
+# Reporting an issue within Plex
 
    1. Navigate to the content you're having issues watching
    2. Click or tap the **More** button
