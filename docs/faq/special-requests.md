@@ -24,6 +24,7 @@ Exceptions to the above include but are not limited to
 
 - Content originally made available in a foreign language, e.g. Anime or foreign movies
 - Multi-audio content (such as Anime with both English and Japanese voiceovers)
+- Content that is older/aged or not originally made available in a high resolution
 
 ## Special Requests
 
