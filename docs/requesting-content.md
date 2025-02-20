@@ -4,7 +4,7 @@ title: Requesting Content
 
 You can request new Movies or Shows by visiting [Overseerr](https://overseerr.bitpushr.net) to make direct requests. Movie requests are automatically approved, whereas requests for Shows require manual approval. Generally speaking, if the requested content has been released digitally, it will be ready to stream on Plex from the bitpushr.net PlexPushr server on that same day.
 
-!!! note
+!!! tip
     New releases of existing content already on the bitpushr.net PlexPushr server, for example the release of new seasons or episodes of existing shows, are automatically made available as soon as possible.
 
 ## Additional Information
