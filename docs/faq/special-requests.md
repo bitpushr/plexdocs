@@ -32,7 +32,7 @@ If you need any of the following, please contact me privately for:
 
 - Additional subtitle languages
 - Alternate cuts or versions such as a Director's Cut or Extended Edition (see [editions](/docs/content-editions.md))
-- Additional features such as DVD commentaries or extras
+- Additional features such as commentaries or extras
 
 !!! note
     Special requests may take additional time to process and could require additional storage space. I'll do my best to accommodate your needs but these requests are serviced on a best-effort basis.
