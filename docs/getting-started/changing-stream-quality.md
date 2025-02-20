@@ -6,7 +6,7 @@ By default, Plex automatically sets video quality to 720p on all new devices. Wh
 
 1. Most devices today can handle higher quality streams, such as 4K
 2. Downscaling 1080p content to 720p, or 4K to 720p, reduces video quality for the viewer
-3. [Transcoding](../faq) (converting) video from 4K to 720p creates unnecessary load on the Plex server
+3. [Transcoding](../faq/what-is-transcoding) (converting) video from 4K to 720p creates unnecessary load on the Plex server
 
 !!! tip
     For the best viewing experience, you should adjust your quality settings to "Maximum" or at least "1080p" if your internet connection can support it. The sections in the table of contents to your left will show you how to do this on different devices.
@@ -20,7 +20,7 @@ See the below instructions for how to change your Plex streaming quality on all 
 
 !!! example "iOS & Android"
 
-    ![Example](../changing-stream-quality/images/change-stream-quality-ios-android.webp)
+    ![Example](./images/change-stream-quality-ios-android.webp)
 
     **Source**: [plxplainers.xyz](https://www.plxplainers.xyz/)
 
@@ -28,7 +28,7 @@ See the below instructions for how to change your Plex streaming quality on all 
 
 !!! example "Amazon Fire TV, Android TV, PlayStation 4/5, Xbox, Roku, Smart TV (LG, Samsung, VIZIO)"
 
-    ![Example](../changing-stream-quality/images/change-stream-quality-stream-boxes.webp)
+    ![Example](./images/change-stream-quality-stream-boxes.webp)
 
     **Source**: [plxplainers.xyz](https://www.plxplainers.xyz/)
 
@@ -39,7 +39,7 @@ See the below instructions for how to change your Plex streaming quality on all 
 
 !!! example "Plex app"
 
-    ![Example](../changing-stream-quality/images/change-stream-quality-web-browser.webp)
+    ![Example](./images/change-stream-quality-web-browser.webp)
 
     **Source**: [plxplainers.xyz](https://www.plxplainers.xyz/)
 
@@ -47,7 +47,7 @@ See the below instructions for how to change your Plex streaming quality on all 
 
 !!! example "tvOS (Apple TV)"
 
-    ![Example](../changing-stream-quality/images/change-stream-quality-apple-tv.webp)
+    ![Example](./images/change-stream-quality-apple-tv.webp)
 
     **Source**: [plxplainers.xyz](https://www.plxplainers.xyz/)
 
@@ -58,6 +58,6 @@ See the below instructions for how to change your Plex streaming quality on all 
 
 !!! example "Web Browser"
 
-    ![Example](/docs/assets/images/change-stream-quality-web-browser.webp)
+    ![Example](./images/change-stream-quality-web-browser.webp)
 
     **Source**: [plxplainers.xyz](https://www.plxplainers.xyz/)

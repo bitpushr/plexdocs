@@ -31,7 +31,7 @@ Exceptions to the above include but are not limited to
 If you need any of the following, please contact me privately for:
 
 - Additional subtitle languages
-- Alternate cuts or versions such as a Director's Cut or Extended Edition (see [editions](../content-editions))
+- Alternate cuts or versions such as a Director's Cut or Extended Edition (see [editions](../content-editions.md))
 - Additional features such as commentaries or extras
 
 !!! note
