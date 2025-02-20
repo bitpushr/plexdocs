@@ -1,20 +1,37 @@
-# Content Quality and Language Options
+---
+title: Content quality and Language Options
+---
 
-## Default Settings
-By default, all content on my Plex server has:
+## Movie Defaults
 
-- 1080p resolution
-- English audio track
+By default, all *Movie* content on my Plex server has:
+
+- 4K resolution where available (sometimes 1080p or lower if 4K isn't available)
+- English audio
 - English subtitles (when available)
 
-## Special Requests
-If you need any of the following, please contact me privately:
+## Shows Defaults
 
-- 4K versions
-- Specific audio languages
+By default, all *Shows* content on my Plex server has:
+
+- 1080p resolution where available (sometimes 720p or lower if 1080p isn't available)
+- English audio
+- English subtitles (when available)
+
+## Exceptions
+
+Exceptions to the above include but are not limited to
+
+- Content originally made available in a foreign language, e.g. Anime or foreign movies
+- Multi-audio content (such as Anime with both English and Japanese voiceovers)
+
+## Special Requests
+
+If you need any of the following, please contact me privately for:
+
 - Additional subtitle languages
-- Alternate cuts or versions
+- Alternate cuts or versions (such as a Director's Cut or Extended Edition)
 - Additional features such as DVD commentaries or extras
 
 !!! note
-    Special requests may take additional time to process and could require additional storage space. I'll do my best to accommodate your needs.
+    Special requests may take additional time to process and could require additional storage space. I'll do my best to accommodate your needs but these requests are serviced on a best-effort basis.
