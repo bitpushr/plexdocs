@@ -37,8 +37,8 @@ nav:
   - What is Plex?: what-is-plex.md
   - Is Plex safe to use?: plex-safety.md
   - Getting Started:
+    - Changing Plex streaming quality: getting-started/index.md
     - Pinning Libraries: getting-started/pinning-libraries.md
-    - Changing Plex streaming quality: getting-started/changing-stream-quality/index.md
     - iOS & Android: getting-started/changing-stream-quality/ios-android.md
     - tvOS (Apple TV): getting-started/changing-stream-quality/tv-os.md
     - Amazon Fire TV, Android TV, PlayStation 4/5, Xbox, Roku, Smart TV (LG, Samsung, VIZIO): getting-started/changing-stream-quality/streaming-devices.md
