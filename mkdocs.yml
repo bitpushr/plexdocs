@@ -60,6 +60,7 @@ nav:
     - I don't want to use this request thingy, can't I just tell you what I want?: faq/i-dont-want-to-use-overseerr.md
     - Can I share your Plex server with someone else?: faq/can-i-share-your-plex.md
     - Why Bitrate Matters: faq/why-bitrate-matters.md
+    - Do I Need to Buy the Plex App: faq/do-i-buy-plex-app.md
   - Useful Links: useful-links.md
   - ↪ Logout: javascript:window.location.href='/auth/logout'
 

@@ -7,6 +7,6 @@ title: Changing Plex Streaming Quality on a Web Browser
 
 !!! example "Web Browser"
 
-    ![Example](../assets/images/change-stream-quality-web-browser.webp)
+    ![Example](/docs/assets/images/change-stream-quality-web-browser.webp)
 
     **Source**: [plxplainers.xyz](https://www.plxplainers.xyz/)
