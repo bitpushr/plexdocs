@@ -1,5 +1,5 @@
 ---
-title: Technical Guide: Why Bitrate Matters
+title: Technical Guide on Why Bitrate Matters
 ---
 
 !!! info "Technical Guide: Why Bitrate Matters"

@@ -54,7 +54,7 @@ nav:
     - Content Quality and Language Options: faq/special-requests.md
     - I don't want to use this request thing, can't I just tell you what I want?: faq/i-dont-want-to-use-overseerr.md
     - Can I share your Plex server with someone else?: faq/can-i-share-your-plex.md
-    - Technical Guide: Why Bitrate Matters: faq/why-bitrate-matters.md
+    - Technical Guide On Why Bitrate Matters: faq/why-bitrate-matters.md
     - Do I Need to Buy the Plex App: faq/do-i-buy-plex-app.md
   - Useful Links: useful-links.md
   - ↪ Logout: javascript:window.location.href='/auth/logout'
