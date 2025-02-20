@@ -1,4 +1,6 @@
-# Changing Plex streaming quality: iOS & Android
+---
+title: Changing Plex Streaming Quality on iOS & Android 
+---
 
 !!! example "iOS & Android"
 

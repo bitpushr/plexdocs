@@ -1,10 +1,12 @@
-# I requested something an hour ago but it hasn't shown up yet. Why?
+---
+title: Where is my requested content?
+---
 
-When requesting content at [request.mydomain.com](https://request.mydomain.com), you'll see three important dates:
+When requesting content at [Overseerr](https://overseerr.bitpushr.net), you'll see three important dates on the pages for content you're requesting:
 
 ![Overseerr Release Dates](../assets/images/overseerr-release-dates.webp){ width="320" }
 /// caption
-Release dates within request.mydomain.com
+Release dates within Overseerr
 ///
 
 1. Theatrical Release - When it hits theaters
@@ -12,6 +14,6 @@ Release dates within request.mydomain.com
 3. Physical Release - When DVDs/Blu-rays are available
 
 !!! important
-    Content typically won't be available on Plex until after its Digital Release date. When requesting new content, always check the Digital Release date in Overseerr's "Release Dates" column to know when it will be available.
+    Content typically won't be available on Plex until after its **Digital** release date. When requesting new content, always check the **Digital** release date in Overseerr's "Release Dates" column to know when it will be available.
 
-There are rare exceptions to this rule, but generally, if your requested content isn't showing up in Plex, verify that its Digital Release date has passed.
+There are exceptions to this rule, e.g. Show requests are manually processed, but generally, if your requested content isn't showing up in Plex then you should verify that its **Digital** release date has passed.

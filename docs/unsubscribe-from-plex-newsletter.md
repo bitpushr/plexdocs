@@ -1,22 +1,13 @@
-# Managing Newsletter Subscriptions
+---
+title: Managing Newsletter Subscriptions
+---
 
 ## Plex's Official Newsletter
-New Plex accounts are automatically subscribed to Plex's company newsletter. This is managed by Plex directly and is not controlled by my server. You can unsubscribe from this through your Plex account settings.
+
+New Plex accounts are automatically subscribed to the Plex platform newsletter. This is managed by Plex directly and is not controlled by bitpushr.net's server. You can unsubscribe from this newletter through your Plex account settings as in the below how-to.
 
 !!! example "How-to: Unsubscribing from Plex's Newsletter"
 
     ![Example](assets/images/unsubscribe-from-plex-newsletter.webp)
 
     **Source**: [plxplainers.xyz](https://www.plxplainers.xyz/)
-
-## My Weekly Newsletter
-I send out a separate, personal newsletter every Friday at 5:00 PM. You can identify it by:
-
-- Email address sending this newsletter will be `noreply@mydomain.com`
-- The newsletter itself will have a logo with the name of my Plex server
-
-If you'd like to unsubscribe from my newsletter, please contact me privately.
-
-!!! example ""
-
-    ![Example](assets/images/custom-newsletter.webp)
