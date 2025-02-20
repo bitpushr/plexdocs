@@ -1,5 +1,5 @@
 ---
-title: I'm having problems with a Movie or Show
+title: Content or Playback Issues
 ---
 
 If you encounter any problems with content (such as distorted video, incorrect media, double images, or misaligned subtitles), you have two ways to report it:
