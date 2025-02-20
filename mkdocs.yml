@@ -33,22 +33,23 @@ theme:
       accent: purple
 
 nav:
-  - Preamble: index.md
+  - Welcome: index.md
   - What is Plex?: what-is-plex.md
   - Is Plex safe to use?: plex-safety.md
   - Pinning Libraries: pinning-libraries.md
-  - Managing Newsletter Subscriptions: unsubscribe-from-plex-newsletter.md
-  - Disabling Online Media Sources: disabling-online-media-sources.md
-  - Requesting Content: requesting-content.md
   - Changing Plex streaming quality:
     - changing-stream-quality/index.md
     - iOS & Android: changing-stream-quality/ios-android.md
     - tvOS (Apple TV): changing-stream-quality/tv-os.md
     - Amazon Fire TV, Android TV, PlayStation 4/5, Xbox, Roku, Smart TV (LG, Samsung, VIZIO): changing-stream-quality/streaming-devices.md
+    - Plex App: plex-app.md
     - Web Browser: changing-stream-quality/web-browser.md
+  - Disabling Online Media Sources: disabling-online-media-sources.md
+  - Requesting Content: requesting-content.md
+  - Content Editions: content-editions.md
+  - Managing Newsletter Subscriptions: unsubscribe-from-plex-newsletter.md
   - FAQ:
     - What is transcoding?: faq/what-is-transcoding.md
-    - Why do I need to buy the Plex app on my phone?: faq/why-do-i-to-buy-plex-app.md
     - My video won't stop buffering: faq/wont-stop-buffering.md
     - Help, I forgot my Plex password!: faq/forgot-password.md
     - How do I add items to my Plex Universal Watchlist?: faq/adding-to-universal-watchlist.md
@@ -57,9 +58,7 @@ nav:
     - I'm having a problem with a Movie or TV Show: faq/content-issues.md
     - Content Quality and Language Options: faq/special-requests.md
     - I don't want to use this request thingy, can't I just tell you what I want?: faq/i-dont-want-to-use-overseerr.md
-    - Missing Confirmation Emails: faq/missing-emails.md
     - Can I share your Plex server with someone else?: faq/can-i-share-your-plex.md
-    - Plex is awesome! Can I send you some money to support it?: faq/how-can-i-support-you.md
     - Why Bitrate Matters: faq/why-bitrate-matters.md
   - Useful Links: useful-links.md
   - ↪ Logout: javascript:window.location.href='/auth/logout'
