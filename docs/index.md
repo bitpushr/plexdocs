@@ -12,6 +12,6 @@ The content contained in this wiki should answer most of your questions, though 
 
 All settings discussed in these docs will sync across your devices and only need to be configured once, with one important exception: Plex streaming quality **must** be set separately the first time you log into the Plex application on a new device. If you share access to your Plex account with multiple other people, or use the account on multiple devices, ensure at least the relevant instructions mentioned below are followed.
 
-Whilst you don't need to read these docs from start to finish, Plex users should at least review the essential Getting Started sections on [Pinning Libraries](getting-started/pinning-libraries.md) and [Changing Stream Quality](getting-started/changing-stream-quality.md) for the best viewing experience.
+Whilst you don't need to read these docs from start to finish, Plex users should at least review the essential Getting Started sections on [Pinning Libraries](getting-started/pinning-libraries.md), [Changing Stream Quality](getting-started/changing-stream-quality.md) and [Disabling Online Media Sources](getting-started/disabling-online-media-sources.md) for the best viewing experience.
 
 Happy reading!
