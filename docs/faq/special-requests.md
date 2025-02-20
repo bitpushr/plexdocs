@@ -4,7 +4,7 @@ title: Content quality and Language Options
 
 ## Movie Defaults
 
-By default, all *Movie* content on my Plex server has:
+By default, all *Movie* content on the bitpushr.net Plex server has:
 
 - 4K resolution where available (sometimes 1080p or lower if 4K isn't available)
 - English audio
@@ -12,7 +12,7 @@ By default, all *Movie* content on my Plex server has:
 
 ## Shows Defaults
 
-By default, all *Shows* content on my Plex server has:
+By default, all *Shows* content on the bitpushr.net Plex server has:
 
 - 1080p resolution where available (sometimes 720p or lower if 1080p isn't available)
 - English audio
