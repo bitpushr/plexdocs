@@ -1,34 +1,6 @@
 ---
-title: The Toolbox
+title: Overseerr
 ---
-
-## Welcome
-
-If you're reading this, you have likely just signed up for access to the bitpushr.net Plex server. If this is true, welcome and thanks! This page serves as a sort of landing page for new and existing users alike, providing quick links to things you might need whether you're just starting out or a veteran user. Read on below to equip yourself with the things you'll need to manage and take advantage of the Plex ecosystem features included with your access.
-
-## Plex and Getting It
-
-By now, you already know what Plex *itself* is. Now, you need to actually get it. Plex is available on virtually all platforms whether you're watching via a web browser, a Smart TV, using the Plex desktop app on a Windows or Mac PC, on a mobile device or even a console.
-
-### Plex on Consoles
-
-Plex is available for both Xbox and PlayStation consoles from their respective platform stores. Simply search "Plex".
-
-### Plex on Mobile
-
-Plex is available for both Android and iDevices. Plex for Android can be downloaded via the Google Play store by either searching for it or by using [this](https://play.google.com/store/apps/details?id=com.plexapp.android&#038;hl=en) link. Plex for iDevices (iPhones, iPads, etc.) can be downloaded via the App Store by either searching for it or by using [this](https://apps.apple.com/us/app/plex-watch-live-tv-and-movies/id383457673) link.
-
-### Plex on PC
-
-Plex is available on [Windows](https://www.plex.tv/en-au/media-server-downloads/?cat=plex+desktop&plat=windows#plex-app), [macOS](https://www.plex.tv/en-au/media-server-downloads/?cat=plex+desktop&plat=macos#plex-app) and [Linux-based](https://www.plex.tv/en-au/media-server-downloads/?cat=plex+desktop&plat=linux#plex-app) PCs as a dedicated, standalone app. This is recommended as outlined [here](changing-stream-quality#plex-app.md) for an optimal viewing experience.
-
-### Plex on Streaming Devices
-
-Plex is available on almost all streaming devices including supported [Smart TVs](https://support.plex.tv/articles/204080173-which-smart-tv-models-are-supported/), Chromecast/Google TV, Apple TV and more. In most cases, Plex is available on the platform's respective store simply by searching for "Plex".
-
-### Plex on a Web Browser
-
-Plex is available as a standard webpage [here](https://app.plex.tv/desktop). As above, streaming via a dedicated app is recommended.
 
 ## Overseerr
 

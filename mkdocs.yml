@@ -37,10 +37,11 @@ nav:
   - What is Plex?: what-is-plex.md
   - Is Plex safe to use?: plex-safety.md
   - Getting Started:
-    - The Toolbox: getting-started/the-toolbox.md
+    - Index: getting-started/index.md
     - Changing Plex streaming quality: getting-started/changing-stream-quality.md
     - Pinning Libraries: getting-started/pinning-libraries.md
     - Disabling Online Media Sources: getting-started/disabling-online-media-sources.md
+    - Requesting Content with Overseerr: getting-started/overseerr.md
   - Content Editions: content-editions.md
   - Managing Newsletter Subscriptions: unsubscribe-from-plex-newsletter.md
   - FAQ:
