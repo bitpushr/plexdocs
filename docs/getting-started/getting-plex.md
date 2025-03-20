@@ -21,7 +21,7 @@ Plex is available for both Android and iDevices. Plex for Android can be downloa
 
 ### Plex on PC
 
-Plex is available on [Windows](https://www.plex.tv/en-au/media-server-downloads/?cat=plex+desktop&plat=windows#plex-app), [macOS](https://www.plex.tv/en-au/media-server-downloads/?cat=plex+desktop&plat=macos#plex-app) and [Linux-based](https://www.plex.tv/en-au/media-server-downloads/?cat=plex+desktop&plat=linux#plex-app) PCs as a dedicated, standalone app. This is recommended as outlined [here](changing-stream-quality#plex-app.md) for an optimal viewing experience.
+Plex is available on [Windows](https://www.plex.tv/en-au/media-server-downloads/?cat=plex+desktop&plat=windows#plex-app), [macOS](https://www.plex.tv/en-au/media-server-downloads/?cat=plex+desktop&plat=macos#plex-app) and [Linux-based](https://www.plex.tv/en-au/media-server-downloads/?cat=plex+desktop&plat=linux#plex-app) PCs as a dedicated, standalone app. This is recommended as outlined [here](changing-stream-quality.md#plex-app) for an optimal viewing experience.
 
 ### Plex on Streaming Devices
 
