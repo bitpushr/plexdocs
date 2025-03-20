@@ -9,7 +9,7 @@ title: Overseerr
 Overseerr is mobile-friendly and should be accessible via anything that has a *standalone* web browser such as Google Chrome, Microsoft Edge, Mozilla Firefox, Safari, Brave, etc.
 
 !!! important
-    Overseerr is **not** accessible via apps such as Facebook Messenger, as apps such as it do not allow for login/session credentials to be saved
+    Overseerr is **not** accessible via apps such as Facebook Messenger, as apps such as it do not allow for login/session credentials to be saved, and has no dedicated/standalone app for itself
 
 To access and login to Overseerr, go to https://overseerr.bitpushr.net or follow [this](https://overseerr.bitpushr.net) link. There, you'll be greeted by a login screen that looks something like this:
 
