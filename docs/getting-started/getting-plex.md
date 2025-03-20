@@ -2,8 +2,6 @@
 title: Getting Plex
 ---
 
-## Plex and Getting It
-
 By now, you already know what Plex *itself* is. Now, you need to actually get it. Plex is available on virtually all platforms whether you're watching via a web browser, a Smart TV, using the Plex desktop app on a Windows or Mac PC, on a mobile device or even a console.
 
 ### Creating an Account

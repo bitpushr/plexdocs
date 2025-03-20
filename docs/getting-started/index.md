@@ -1,8 +1,6 @@
 ---
-title: Index
+title: Welcome
 ---
-
-## Welcome
 
 If you're reading this, you have likely just signed up for access to the bitpushr.net Plex server. If this is true, welcome and thanks! This section serves as a sort of landing page for new and existing users alike, providing quick links to things you might need whether you're just starting out or a veteran user.
 
