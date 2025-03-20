@@ -11,6 +11,8 @@ Overseerr is mobile-friendly and should be accessible via anything that has a *s
 !!! important
     Overseerr is **not** accessible via apps such as Facebook Messenger, as apps such as it do not allow for login/session credentials to be saved, and has no dedicated/standalone app for itself
 
+### Logging In
+
 To access and login to Overseerr, go to https://overseerr.bitpushr.net or follow [this](https://overseerr.bitpushr.net) link. There, you'll be greeted by a login screen that looks something like this:
 
 ![Overseerr Login](../assets/images/overseerr-login.png)
@@ -20,7 +22,7 @@ Click/tap the Yellow "Sign In" button on the page under the "Use your Plex accou
 ![Overseerr Login](../assets/images/overseerr-login2.png)
 
 !!! tip
-    If you setup 2-factor authentication on your Plex account, which we recommend doing, you will be asked to enter your code after logging in.
+    If you setup 2-factor authentication on your Plex account, which we recommend doing, you will be asked to enter your code after logging in
 
 Once you are logged in, you will be greeted by the Overseerr main interface which looks like the below image.
 
