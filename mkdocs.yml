@@ -1,4 +1,4 @@
-site_name: bp's Plex Docs # Replace with your site name
+site_name: bitpushr.net Plex Docs # Replace with your site name
 site_url: https://docs.bitpushr.net # Replace with your site URL
 theme:
   name: material
@@ -37,6 +37,7 @@ nav:
   - What is Plex?: what-is-plex.md
   - Is Plex safe to use?: plex-safety.md
   - Getting Started:
+    - The Toolbox: getting-started/the-toolbox.md
     - Changing Plex streaming quality: getting-started/changing-stream-quality.md
     - Pinning Libraries: getting-started/pinning-libraries.md
     - Disabling Online Media Sources: getting-started/disabling-online-media-sources.md
