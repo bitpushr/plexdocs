@@ -37,7 +37,7 @@ nav:
   - What is Plex?: what-is-plex.md
   - Is Plex safe to use?: plex-safety.md
   - Getting Started:
-    - Index: getting-started/index.md
+    - Welcome: getting-started/index.md
     - Getting Plex: getting-started/getting-plex.md
     - Changing Plex streaming quality: getting-started/changing-stream-quality.md
     - Pinning Libraries: getting-started/pinning-libraries.md
